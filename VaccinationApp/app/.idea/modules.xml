@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-923173265/VaccinationApp.iml" filepath="$PROJECT_DIR$/.idea/modules/-923173265/VaccinationApp.iml" group="VaccinationApp" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="VaccinationApp/app" />
+      <module fileurl="file://C://vaccination/../../Vaccination/vaccinator-app/VaccinationApp/app/.idea/modules/-923173265/VaccinationApp.iml" filepath="C://vaccination/../../Vaccination/vaccinator-app/VaccinationApp/app/.idea/modules/-923173265/VaccinationApp.iml" group="VaccinationApp" />
+      <module fileurl="file://C://vaccination/../../Vaccination/vaccinator-app/VaccinationApp/app/.idea/modules/app.iml" filepath="C://vaccination/../../Vaccination/vaccinator-app/VaccinationApp/app/.idea/modules/app.iml" group="VaccinationApp/app" />
     </modules>
   </component>
 </project>
