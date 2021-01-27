@@ -1,1 +1,1 @@
-# Scanner-App
+# Vaccinator App
