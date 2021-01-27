@@ -31,8 +31,22 @@
     <androidx.constraintlayout.widget.Guideline
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/h20"
+        app:layout_constraintGuide_percent=".20"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/h25"
+        app:layout_constraintGuide_percent=".25"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/h4"
-        app:layout_constraintGuide_percent=".4"
+        app:layout_constraintGuide_percent=".35"
         android:orientation="horizontal"/>
 
     <androidx.constraintlayout.widget.Guideline
@@ -82,12 +96,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:text="Scan the \nvaccine batch to \nbe used today"
         android:textSize="25dp"
         android:textStyle="bold"
-        android:text="Welcome Back \nCedar Knolls!"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/h3" />
+        app:layout_constraintTop_toTopOf="@+id/h4" />
 
     <TextView
         android:id="@+id/textView"
@@ -96,7 +110,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textSize="15dp"
-        android:text="Please confirm your \nlocation for today"
+        android:text="This becomes the dose info \n tobe insterted into all \nbadges for today"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -109,7 +123,7 @@
         android:layout_marginEnd="20dp"
         android:gravity="left"
         android:background="@drawable/login_roind_btn"
-        android:text="Scan Vaccine Batch"
+        android:text="Ready to scan"
         android:drawableRight="@drawable/ic_arrow_forward_35"
         android:padding="20dp"
         android:textColor="#000000"
@@ -121,5 +135,47 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/h6"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADMINISTRATOR"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/h0"
+        app:layout_constraintEnd_toStartOf="@+id/v2"
+        app:layout_constraintStart_toStartOf="@+id/v1" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cader Knolls"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/h3"
+        app:layout_constraintEnd_toStartOf="@+id/v2"
+        app:layout_constraintStart_toStartOf="@+id/v1"
+        app:layout_constraintTop_toTopOf="@+id/h0" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parsnip Hospital"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/v2"
+        app:layout_constraintStart_toStartOf="@+id/v1"
+        app:layout_constraintTop_toTopOf="@+id/h20" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/h20"
+        app:layout_constraintEnd_toStartOf="@+id/v2"
+        app:layout_constraintStart_toStartOf="@+id/v1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

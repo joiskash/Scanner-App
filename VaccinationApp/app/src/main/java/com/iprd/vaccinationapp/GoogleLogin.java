@@ -26,7 +26,7 @@ public class GoogleLogin extends AppCompatActivity implements View.OnClickListen
 
                 Intent intent = new Intent(GoogleLogin.this, ScanVaccineBatch.class);
                 startActivity(intent);
-                
+
                 break;
 
         }
