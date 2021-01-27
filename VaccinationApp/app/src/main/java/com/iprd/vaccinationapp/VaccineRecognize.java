@@ -7,23 +7,24 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ScanVaccineBatch extends AppCompatActivity implements  View.OnClickListener{
+public class VaccineRecognize extends AppCompatActivity implements View.OnClickListener {
 
-    Button scan_vaccine_batch_btn;
+    Button login_btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.scan_vaccine_batch);
-        scan_vaccine_batch_btn = (Button) findViewById(R.id.scan_vaccine_batch_btn);
-        scan_vaccine_batch_btn.setOnClickListener((View.OnClickListener) this);
+        setContentView(R.layout.vaccine_recognized);
+//        login_btn = (Button) findViewById(R.id.login_btn);
+//        login_btn.setOnClickListener((View.OnClickListener) this);
     }
+
     @Override
     public void onClick(View view) {
         Button b = (Button) view;
         switch (b.getId()) {
-            case R.id.scan_vaccine_batch_btn:
+            case R.id.login_btn:
 
-                Intent intent = new Intent(ScanVaccineBatch.this, ReadyToScanToday.class);
+                Intent intent = new Intent(VaccineRecognize.this, ScanVaccineBatch.class);
                 startActivity(intent);
 
                 break;

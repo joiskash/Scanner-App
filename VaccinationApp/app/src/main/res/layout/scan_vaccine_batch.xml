@@ -116,7 +116,7 @@
         app:layout_constraintTop_toTopOf="@+id/h4" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/scan_vaccine_batch_btn"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="20dp"

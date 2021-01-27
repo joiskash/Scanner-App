@@ -23,6 +23,7 @@
         <activity android:name=".CuponValidation" />
         <activity android:name=".RecordDoseOrReportSideEffect" />
         <activity android:name=".ReadyToScanToday" />
+        <activity android:name=".VaccineRecognize" />
 
     </application>
 
